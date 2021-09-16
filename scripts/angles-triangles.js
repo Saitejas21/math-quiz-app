@@ -14,11 +14,11 @@ function isTriangle() {
     Number(inputs[2].value)
   );
   if (sum === 180) {
-    console.log("Yay, the angles form a triangle!");
-    outputEl.innerText = "Yay, the angles form a triangle!";
+    console.log("These angles form a Triangle.");
+    outputEl.innerText = "These angles form a Triangle.";
   } else {
-    console.log("Oh Oh! The angle doesn't form a triangle");
-    outputEl.innerText = "Oh Oh! The angle doesn't form a triangle";
+    console.log("No, This doesn't form a triangle");
+    outputEl.innerText = "No, This doesn't form a triangle";
   }
 }
 
