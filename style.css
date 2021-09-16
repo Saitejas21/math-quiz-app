@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
   padding: 0;
@@ -8,11 +8,11 @@
 }
 
 :root {
-  --primary-color: #7c3aed;
+  --primary-color: #047857;
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -33,7 +33,7 @@ header {
 }
 
 header h1 {
-  font-family: "Megrim", cursive;
+  font-family: "Source Code Pro", monospace;
   text-align: initial;
 }
 
@@ -90,6 +90,7 @@ main h1 {
   outline: #fff;
   margin: 1rem auto;
   display: block;
+  font-family: "Poppins", sans-serif;
 }
 
 .output {
@@ -101,6 +102,7 @@ main h1 {
 
 footer {
   text-align: center;
+  padding-bottom: 1rem;
   /* position: absolute;
   bottom: 0;
   left: 0;
